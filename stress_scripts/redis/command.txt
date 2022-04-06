@@ -1,0 +1,3 @@
+mpssh -f client_host_file "/home/cc/common/ycsb-0.17.0/bin/ycsb load redis -threads 40 -P /tmp/redis_bench/workload_load_light -P /tmp/redis_bench/redis.properties > /home/cc/redis_test_log/load_light_result.log"
+
+mpssh -f client_host_file "/home/cc/common/ycsb-0.17.0/bin/ycsb run redis -threads 40 -P /home/cc/common/syn_test/redis/worloads//workload_read_light -P /tmp/redis_bench/redis.properties -p maxexecutiontime=60 > /home/cc/redis_test_log/redis_4_read_light.log"

@@ -1,0 +1,14 @@
+[global]
+directory=/mnt/nvme/jye20/OFS1-mount/
+#filename=/mnt/nvme/jye20/OFS1-mount/datafile
+ioengine=sync
+iodepth=4
+direct=1
+numjobs=40
+group_reporting=1
+per_job_logs=1
+
+[seq_write_heavy]
+rw=read
+size=640m
+blocksize=4m

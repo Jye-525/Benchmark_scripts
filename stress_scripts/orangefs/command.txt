@@ -1,0 +1,1 @@
+fio --client=client_host_file fio_confs/fio_read_light.fio --output-format=normal --output=log/fio_read.log
