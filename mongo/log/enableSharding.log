@@ -1,0 +1,77 @@
+MongoDB shell version v5.0.6
+connecting to: mongodb://server1:17017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("099359f0-664f-4004-a329-314646fa5d63") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+switched to db ycsb
+{
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1645161672, 12),
+		"signature" : {
+			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			"keyId" : NumberLong(0)
+		}
+	},
+	"operationTime" : Timestamp(1645161672, 10)
+}
+{
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1645161672, 13),
+		"signature" : {
+			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			"keyId" : NumberLong(0)
+		}
+	},
+	"operationTime" : Timestamp(1645161672, 13)
+}
+{
+	"collectionsharded" : "ycsb.usertable",
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1645161673, 29),
+		"signature" : {
+			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			"keyId" : NumberLong(0)
+		}
+	},
+	"operationTime" : Timestamp(1645161673, 24)
+}
+{
+	"version" : Timestamp(1, 3),
+	"versionEpoch" : ObjectId("620f2cc9f59b43264d292aaa"),
+	"versionTimestamp" : Timestamp(1645161673, 5),
+	"ok" : 1,
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1645161673, 29),
+		"signature" : {
+			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			"keyId" : NumberLong(0)
+		}
+	},
+	"operationTime" : Timestamp(1645161673, 29)
+}
+
+Shard replshard0 at replshard0/server1:37017
+ data : 0B docs : 0 chunks : 2
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Shard replshard1 at replshard1/server2:37017
+ data : 0B docs : 0 chunks : 2
+ estimated data per chunk : 0B
+ estimated docs per chunk : 0
+
+Totals
+ data : 0B docs : 0 chunks : 4
+ Shard replshard0 contains 0% data, 0% docs in cluster, avg obj size on shard : 0B
+ Shard replshard1 contains 0% data, 0% docs in cluster, avg obj size on shard : 0B
+
+bye

@@ -1,0 +1,55 @@
+MongoDB shell version v5.0.6
+connecting to: mongodb://server1:57040/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("472449ac-3651-4baa-b3cf-f1aa37bf5867") }
+MongoDB server version: 5.0.6
+{
+	"topologyVersion" : {
+		"processId" : ObjectId("620f2ca7e87a44b7d2608cb7"),
+		"counter" : NumberLong(3)
+	},
+	"hosts" : [
+		"server1:57040",
+		"server2:57040"
+	],
+	"setName" : "replconfig01",
+	"setVersion" : 1,
+	"ismaster" : false,
+	"secondary" : true,
+	"me" : "server1:57040",
+	"lastWrite" : {
+		"opTime" : {
+			"ts" : Timestamp(1645161647, 1),
+			"t" : NumberLong(-1)
+		},
+		"lastWriteDate" : ISODate("2022-02-18T05:20:47Z"),
+		"majorityOpTime" : {
+			"ts" : Timestamp(1645161647, 1),
+			"t" : NumberLong(-1)
+		},
+		"majorityWriteDate" : ISODate("2022-02-18T05:20:47Z")
+	},
+	"configsvr" : 2,
+	"maxBsonObjectSize" : 16777216,
+	"maxMessageSizeBytes" : 48000000,
+	"maxWriteBatchSize" : 100000,
+	"localTime" : ISODate("2022-02-18T05:20:47.723Z"),
+	"logicalSessionTimeoutMinutes" : 30,
+	"connectionId" : 6,
+	"minWireVersion" : 0,
+	"maxWireVersion" : 13,
+	"readOnly" : false,
+	"ok" : 1,
+	"$gleStats" : {
+		"lastOpTime" : Timestamp(0, 0),
+		"electionId" : ObjectId("000000000000000000000000")
+	},
+	"lastCommittedOpTime" : Timestamp(1645161647, 1),
+	"$clusterTime" : {
+		"clusterTime" : Timestamp(1645161647, 1),
+		"signature" : {
+			"hash" : BinData(0,"AAAAAAAAAAAAAAAAAAAAAAAAAAA="),
+			"keyId" : NumberLong(0)
+		}
+	},
+	"operationTime" : Timestamp(1645161647, 1)
+}

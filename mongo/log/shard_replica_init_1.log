@@ -1,0 +1,13 @@
+MongoDB shell version v5.0.6
+connecting to: mongodb://server1:37017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("25a9fd35-7ae6-4629-9c65-8770cf4dc876") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+{ "ok" : 1 }
+bye
