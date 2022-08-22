@@ -14,6 +14,7 @@ do
     done
 done
 
+# 1.2 direct_io
 for io_size in ${io_sizes[@]}
 do
     for dtype in ${dtypes[@]}
